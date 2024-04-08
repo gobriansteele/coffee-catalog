@@ -10,7 +10,9 @@
 
 <div class="h-1/3 w-full md:w-1/3 md:h-full flex justify-center items-center relative">
 	<a href={link.href} class="underline text-white text-2xl z-10">{link.text}</a>
-	<div
-		class="w-full h-full bg-[url('{link.bkgImageUrl}')] bg-cover bg-center bg-no-repeat opacity-50 hover:opacity-80 absolute"
-	></div>
+	<img
+		class="object-cover w-full h-full opacity-50 hover:opacity-80 absolute"
+		src={link.bkgImageUrl}
+		alt=""
+	/>
 </div>

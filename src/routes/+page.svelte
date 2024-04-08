@@ -1,21 +1,22 @@
 <script>
 	import LinkCard from './components/LinkCard.svelte'
+	import { coffeeBeans, coffeeShop } from '$lib'
 
 	export let links = [
 		{
 			text: 'Coffees',
 			href: '/coffees',
-			bkgImageUrl: '/images/coffee_beans.jpeg'
+			bkgImageUrl: coffeeBeans
 		},
 		{
 			text: 'Roasters',
 			href: '/roasters',
-			bkgImageUrl: '/images/coffee_shop.jpeg'
+			bkgImageUrl: coffeeBeans
 		},
 		{
 			text: 'Shops',
 			href: '/shops',
-			bkgImageUrl: '/images/coffee_shop.jpeg'
+			bkgImageUrl: coffeeShop
 		}
 	]
 </script>

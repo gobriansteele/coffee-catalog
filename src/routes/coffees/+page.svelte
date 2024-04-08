@@ -1,4 +1,5 @@
 <script>
+	import { elCairoBean } from '$lib'
 	import CoffeeCard from './components/CoffeeCard.svelte'
 </script>
 
@@ -7,6 +8,6 @@
 		name="El Cairo"
 		roaster={{ name: 'Prodigal Coffee' }}
 		roastType="medium"
-		imageUrl="/images/el_cairo.jpeg"
+		imageUrl={elCairoBean}
 	/>
 </div>
